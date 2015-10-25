@@ -1,0 +1,54 @@
+---
+title       : Slidify Assignment 1
+subtitle    : Data Products
+author      : Raghu
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : [mathjax, quiz, bootstrap]            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Slide With Code
+
+```{r}
+summary(cars)
+```
+
+--- .class 2 
+
+## Slide With Plot
+
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+
+--- .class 3 
+
+## Slide with Math Expressions
+$$x^2$$
+$$\frac{-b \pm \sqrt{b^2 - 4 a c}}{2a}$$
+
+### numbered points
+1. Model1
+2. Model2
+3. Model3
+
+--- &radio
+
+## Slide with quiz
+
+  What is 1+1?
+
+1. 1
+2. _2_
+3. 3
+4. 4
+
+*** .hint 
+This is my hint
+
